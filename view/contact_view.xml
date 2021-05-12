@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (C) 2015 DevIntelle Consulting Service Pvt.Ltd (<http://www.devintellecs.com>).
+
+For Module Support : devintelle@gmail.com  or Skype : devintelle
+ -->
+<odoo>
+    <!--form-->
+    <record id="contact_dev_partner_social_inherited" model="ir.ui.view">
+        <field name="name">contact.dev.partner.social.inherited</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//notebook" position="inside">
+                <page string="Social Links" name="contact_social_account">
+                    <center>
+                        <separator string="Links"/>
+                    </center>
+                    <group>
+                        <field name="facebook_link" style="width: 80%%" placeholder="https://www.facebook.com/Odoodevintellecs/"/>
+                        <field name="instagram_link" style="width: 80%%" placeholder="https://www.instagram.com/devintelle_oddo/"/>
+                        <field name="pinterest_link" style="width: 80%%" placeholder="https://in.pinterest.com/devintellecs_odoo_expert/"/>
+                        <field name="twitter_link" style="width: 80%%" placeholder="https://twitter.com/devintelle"/>
+                        <field name="linkedin_link" style="width: 80%%" placeholder="https://in.linkedin.com/company/devintelle-consulting-service-pvt-ltd"/>
+                        <field name="youtube_link" style="width: 80%%" placeholder="https://www.youtube.com/channel/UCrmu-T0c8rhMXGuB44bH7gA"/>
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+
+    <!--kanaban-->
+    <record id="kanban_dev_partner_social_inherited" model="ir.ui.view">
+        <field name="name">kanban.dev.partner.social.inherited</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.res_partner_kanban_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[@class='oe_kanban_details']" position="after">
+                <div class="row">
+                    <div class="col-12">
+                        <button name="open_facebook_link" type="object" style="border: none;background-color:white;">
+                            <img src="/dev_partner_social/static/src/img/icons/facebook.png" type="object"/>
+                        </button>
+                        <button name="open_instagram_link" type="object" style="border: none;background-color:white;">
+                            <img src="/dev_partner_social/static/src/img/icons/instagram.png" type="object"/>
+                        </button>
+                        <button name="open_pinterest_link" type="object" style="border: none;background-color:white;">
+                            <img src="/dev_partner_social/static/src/img/icons/pinterest.png" type="object"/>
+                        </button>
+                        <button name="open_twitter_link" type="object" style="border: none;background-color:white;">
+                            <img src="/dev_partner_social/static/src/img/icons/twitter.png" type="object"/>
+                        </button>
+                        <button name="open_linkedin_link" type="object" style="border: none;background-color:white;">
+                            <img src="/dev_partner_social/static/src/img/icons/linkedin.png" type="object"/>
+                        </button>
+                        <button name="open_youtube_link" type="object" style="border: none;background-color:white;">
+                            <img src="/dev_partner_social/static/src/img/icons/youtube.png" type="object"/>
+                        </button>
+                    </div>
+                </div>
+            </xpath>
+        </field>
+    </record>
+</odoo>
