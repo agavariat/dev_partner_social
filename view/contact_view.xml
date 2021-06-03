@@ -39,22 +39,22 @@ For Module Support : devintelle@gmail.com  or Skype : devintelle
                 <div class="row">
                     <div class="col-12">
                         <button name="open_facebook_link" type="object" style="border: none;background-color:white;">
-                            <img src="/dev_partner_social/static/src/img/icons/facebook.png" type="object"/>
+                            <img src="/dev_partner_social/static/src/img/icons/facebook.png" type="object" style="width: 22px; height: 22px;"/>
                         </button>
                         <button name="open_instagram_link" type="object" style="border: none;background-color:white;">
-                            <img src="/dev_partner_social/static/src/img/icons/instagram.png" type="object"/>
+                            <img src="/dev_partner_social/static/src/img/icons/instagram.png" type="object" style="width: 22px; height: 22px;"/>
                         </button>
                         <button name="open_pinterest_link" type="object" style="border: none;background-color:white;">
-                            <img src="/dev_partner_social/static/src/img/icons/pinterest.png" type="object"/>
+                            <img src="/dev_partner_social/static/src/img/icons/pinterest.png" type="object" style="width: 22px; height: 22px;"/>
                         </button>
                         <button name="open_twitter_link" type="object" style="border: none;background-color:white;">
-                            <img src="/dev_partner_social/static/src/img/icons/twitter.png" type="object"/>
+                            <img src="/dev_partner_social/static/src/img/icons/twitter.png" type="object" style="width: 22px; height: 22px;"/>
                         </button>
                         <button name="open_linkedin_link" type="object" style="border: none;background-color:white;">
-                            <img src="/dev_partner_social/static/src/img/icons/linkedin.png" type="object"/>
+                            <img src="/dev_partner_social/static/src/img/icons/linkedin.png" type="object" style="width: 22px; height: 22px;"/>
                         </button>
                         <button name="open_youtube_link" type="object" style="border: none;background-color:white;">
-                            <img src="/dev_partner_social/static/src/img/icons/youtube.png" type="object"/>
+                            <img src="/dev_partner_social/static/src/img/icons/youtube.png" type="object" style="width: 22px; height: 22px;"/>
                         </button>
                     </div>
                 </div>
